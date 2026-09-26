@@ -43,12 +43,14 @@ body {
     background-color: var(--paper);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 clamp(1.25rem, 4vw, 3rem);
+    width: 100%;
 }
 
 /* Typography */
@@ -186,7 +188,8 @@ a:focus {
     align-items: center;
     justify-content: space-between;
     padding: 1rem 0;
-    gap: 2rem;
+    gap: 1rem;
+    width: 100%;
 }
 
 .header-brand {
