@@ -312,6 +312,17 @@ a:focus {
     color: var(--navy-deep);
 }
 
+.hero .btn-secondary {
+    background-color: transparent;
+    color: var(--paper-bright);
+    border-color: var(--paper-bright);
+}
+
+.hero .btn-secondary:hover {
+    border-color: var(--gold);
+    color: var(--gold);
+}
+
 .hero-accent {
     position: absolute;
     right: -200px;
@@ -362,6 +373,10 @@ a:focus {
 .credentials {
     padding: clamp(3rem, 8vw, 5rem) 0;
     background-color: var(--navy-base);
+    color: var(--paper-bright);
+}
+
+.credentials .section-title {
     color: var(--paper-bright);
 }
 
