@@ -1,0 +1,7 @@
+# ECS Training & Consultancy — https://ecstraining.com.my/
+# Allow full crawl; point bots at the sitemap.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://ecstraining.com.my/sitemap.xml
