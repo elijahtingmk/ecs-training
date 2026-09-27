@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ECS Training & Consultancy sitemap
+  Deploy to: https://ecstraining.com.my/sitemap.xml
+
+  How to add course URLs later:
+  1. Publish a real path (e.g. /courses/workplace-resilience-leo26/).
+  2. Copy a <url> block below, set <loc> to the absolute HTTPS URL.
+  3. Set <lastmod> to the page publish/update date (YYYY-MM-DD).
+  4. Keep only URLs that return 200 with unique content — do not list hash anchors.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://ecstraining.com.my/</loc>
+    <lastmod>2026-09-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+</urlset>
