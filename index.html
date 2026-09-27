@@ -31,82 +31,6 @@
     <meta name="twitter:image" content="https://ecstraining.com.my/og-image.png">
     -->
 
-    <!-- Organization + Course JSON-LD (facts from live page / audit only) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "@id": "https://ecstraining.com.my/#organization",
-          "name": "ECS Training & Consultancy",
-          "legalName": "ECS TRAINING & CONSULTANCY SDN. BHD.",
-          "url": "https://ecstraining.com.my/",
-          "email": "info@ecstraining.com.my",
-          "description": "HRD Corp Registered Training Provider. DOSH Psychosocial Trained Person (PTP) credential PTP/ASV-053/26. Workplace resilience and leadership training for Malaysian organisations.",
-          "identifier": {
-            "@type": "PropertyValue",
-            "name": "SSM Registration",
-            "value": "202601002650 (1664747-T)"
-          },
-          "sameAs": [
-            "https://drelijah.org/"
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://ecstraining.com.my/#website",
-          "url": "https://ecstraining.com.my/",
-          "name": "ECS Training & Consultancy",
-          "publisher": { "@id": "https://ecstraining.com.my/#organization" },
-          "inLanguage": "en"
-        },
-        {
-          "@type": "WebPage",
-          "@id": "https://ecstraining.com.my/#webpage",
-          "url": "https://ecstraining.com.my/",
-          "name": "ECS Training & Consultancy | PRisMA & Earned Leadership Training",
-          "description": "ECS Training & Consultancy - PRisMA Stage I LEO26 Screen (HRD Corp claimable) and Earned Leadership™ training programs.",
-          "isPartOf": { "@id": "https://ecstraining.com.my/#website" },
-          "about": { "@id": "https://ecstraining.com.my/#organization" },
-          "inLanguage": "en"
-        },
-        {
-          "@type": "Course",
-          "@id": "https://ecstraining.com.my/#course-leo26-resilience",
-          "name": "PRisMA Stage I LEO26 Screen in a 4-Hour HRD Course",
-          "alternateName": "Workplace Resilience for Psychosocial Risk: Composure and Collaboration",
-          "description": "Half-day (4 hours) HRD Corp–claimable workplace resilience course bundling a PRisMA Stage I LEO26 psychosocial risk screen with PR6 Composure & Collaboration skills. Not a full organisational PRisMA cycle.",
-          "provider": { "@id": "https://ecstraining.com.my/#organization" },
-          "url": "https://ecstraining.com.my/#programs",
-          "timeRequired": "PT4H",
-          "inLanguage": "en",
-          "offers": {
-            "@type": "Offer",
-            "category": "HRD Corp Claimable",
-            "url": "https://ecstraining.com.my/#contact",
-            "availability": "https://schema.org/InStock"
-          }
-        },
-        {
-          "@type": "Course",
-          "@id": "https://ecstraining.com.my/#course-earned-leadership",
-          "name": "Earned Leadership™",
-          "description": "14-hour executive programme on Decision, Communication, and Aura (earned trust / presence).",
-          "provider": { "@id": "https://ecstraining.com.my/#organization" },
-          "url": "https://ecstraining.com.my/#earned-leadership",
-          "timeRequired": "PT14H",
-          "inLanguage": "en",
-          "offers": {
-            "@type": "Offer",
-            "url": "https://ecstraining.com.my/#contact",
-            "availability": "https://schema.org/InStock"
-          }
-        }
-      ]
-    }
-    </script>
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -123,9 +47,7 @@
                 </div>
                 <nav class="header-nav" id="headerNav">
                     <a href="#credentials" class="nav-link">Credentials</a>
-                    <a href="#programs" class="nav-link">Half-day course</a>
-                    <a href="#earned-leadership" class="nav-link">Earned Leadership</a>
-                    <a href="#who-we-serve" class="nav-link">Who we serve</a>
+                    <a href="/courses/" class="nav-link">Courses</a>
                     <a href="#contact" class="nav-link">Contact</a>
                 </nav>
                 <div class="header-cta">
@@ -148,8 +70,8 @@
                 <h1 class="hero-title">Workplace Resilience Training and Leadership Philosophy</h1>
                 <p class="hero-lede">ECS Training & Consultancy offers a HRD Corp claimable half-day workplace resilience course that includes a PRisMA Stage I LEO26 screen, and Earned Leadership™ — a 14-hour executive programme on judgment, trust, and presence.</p>
                 <div class="hero-actions">
-                    <a href="#programs" class="btn btn-primary">Enquire about the half-day course</a>
-                    <a href="#earned-leadership" class="btn btn-secondary">Explore Earned Leadership™</a>
+                    <a href="/courses/workplace-resilience-leo26/" class="btn btn-primary">Enquire about the half-day course</a>
+                    <a href="/courses/earned-leadership/" class="btn btn-secondary">Explore Earned Leadership™</a>
                 </div>
             </div>
             <div class="hero-accent"></div>
@@ -234,7 +156,7 @@
                 </div>
 
                 <div class="dossier-cta">
-                    <a href="#contact" class="btn btn-primary">Inquire About This Program</a>
+                    <a href="/courses/workplace-resilience-leo26/" class="btn btn-primary">View full course details</a>
                 </div>
             </div>
         </div>
@@ -268,7 +190,7 @@
             </div>
 
             <div class="el-cta">
-                <a href="#contact" class="btn btn-secondary-light">Learn About Earned Leadership™</a>
+                <a href="/courses/earned-leadership/" class="btn btn-secondary-light">View full course details</a>
             </div>
         </div>
     </section>
@@ -318,6 +240,7 @@
 
                 <div class="contact-note">
                     <p>We typically respond within three business days. Whether you're interested in our half-day course (PRisMA Stage I LEO26 screen plus workplace resilience skills), a full PRisMA cycle engagement, Earned Leadership™ for your organization, or have questions about our programs, we're here to help.</p>
+                    <p><a href="/courses/">Browse all courses</a></p>
                 </div>
             </div>
         </div>
@@ -337,6 +260,52 @@
             </div>
         </div>
     </footer>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://ecstraining.com.my/#organization",
+                "name": "ECS Training & Consultancy Sdn. Bhd.",
+                "legalName": "ECS TRAINING & CONSULTANCY SDN. BHD.",
+                "url": "https://ecstraining.com.my/",
+                "email": "info@ecstraining.com.my",
+                "identifier": {
+                    "@type": "PropertyValue",
+                    "propertyID": "SSM",
+                    "value": "202601002650 (1664747-T)"
+                },
+                "sameAs": [
+                    "https://drelijah.org/"
+                ]
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://ecstraining.com.my/#website",
+                "url": "https://ecstraining.com.my/",
+                "name": "ECS Training & Consultancy",
+                "publisher": {
+                    "@id": "https://ecstraining.com.my/#organization"
+                }
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://ecstraining.com.my/#webpage",
+                "url": "https://ecstraining.com.my/",
+                "name": "ECS Training & Consultancy | PRisMA & Earned Leadership Training",
+                "description": "ECS Training & Consultancy - PRisMA Stage I LEO26 Screen (HRD Corp claimable) and Earned Leadership™ training programs.",
+                "isPartOf": {
+                    "@id": "https://ecstraining.com.my/#website"
+                },
+                "about": {
+                    "@id": "https://ecstraining.com.my/#organization"
+                }
+            }
+        ]
+    }
+    </script>
 
     <script>
         // Mobile nav toggle
