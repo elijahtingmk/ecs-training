@@ -279,9 +279,36 @@ a:focus {
     margin-bottom: 1rem;
 }
 
+.tagline-comparison {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+}
+
+.tagline-option {
+    padding: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 2px;
+}
+
+.option-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 1rem;
+}
+
 .hero-tagline {
     font-family: 'Newsreader', Georgia, serif;
-    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-size: clamp(1.5rem, 3.5vw, 2.25rem);
     font-weight: 600;
     color: var(--gold);
     margin-bottom: 1rem;
@@ -290,12 +317,11 @@ a:focus {
 }
 
 .hero-gloss {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     font-style: italic;
     color: rgba(255, 255, 255, 0.75);
-    margin-bottom: 2rem;
+    margin-bottom: 0;
     line-height: 1.6;
-    max-width: 700px;
 }
 
 .hero-title {
@@ -780,6 +806,16 @@ a:focus {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .tagline-comparison {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+        gap: 1.5rem;
+    }
+    
+    .tagline-option {
+        padding: 1.25rem;
+    }
+
     .header-nav {
         display: none;
         position: absolute;
