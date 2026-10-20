@@ -196,6 +196,17 @@ a:focus {
     flex-shrink: 0;
 }
 
+.header-brand a {
+    display: block;
+    line-height: 0;
+}
+
+.header-logo {
+    display: block;
+    height: 44px;
+    width: auto;
+}
+
 .brand-name {
     font-family: 'Newsreader', serif;
     font-size: 1.1rem;
@@ -752,6 +763,10 @@ a:focus {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .header-logo {
+        height: 36px;
+    }
+    
     .header-nav {
         display: none;
         position: absolute;
