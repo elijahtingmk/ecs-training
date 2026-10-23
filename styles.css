@@ -419,44 +419,6 @@ a:focus {
     line-height: 1.5;
 }
 
-.practitioner {
-    margin-top: 2.5rem;
-    padding-top: 2rem;
-    border-top: 1px solid var(--line-navy);
-    max-width: 40rem;
-}
-
-.practitioner p {
-    margin-bottom: 0.35rem;
-}
-
-.practitioner-name {
-    font-family: 'Newsreader', Georgia, serif;
-    font-size: 1.35rem;
-    font-weight: 600;
-    color: var(--paper-bright);
-}
-
-.practitioner-title,
-.practitioner-ptp {
-    color: rgba(255, 255, 255, 0.85);
-}
-
-.practitioner-more {
-    margin-top: 0.75rem;
-    margin-bottom: 0;
-    font-size: 0.95rem;
-}
-
-.practitioner a {
-    color: rgba(255, 255, 255, 0.8);
-    font-weight: 500;
-}
-
-.practitioner a:hover {
-    color: var(--gold);
-}
-
 /* Program Section */
 .program-section {
     padding: clamp(4rem, 10vw, 6rem) 0;
